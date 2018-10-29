@@ -1,47 +1,55 @@
 body {
-	background-color: #ffcccc;
+    background-color: #E0E6F8;
+    background-image: url("wikilogo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* opacity: 0.5; */
+    /* background-color: #fff; */
+    font-family: 'Yantramanav', sans-serif !important;
 }
 
 h1 {
-    color: #B84747;
-    font-size: 26px;
-    font-family: verdana;
-    font-weight: normal;
+    color: #1c1c1c;
+    font-size: 26px; 
+    /* font-family: verdana; */
+    /* font-weight: normal; */
 }
 
 h2 {
-	color: #B84747;
+	color: #1C1C1C;
 	font-size: 16px;
-	font-family: verdana;
-	font-weight: normal;
+	/* font-family: verdana; */
+	/* font-weight: normal; */
 }
 
 .clickbutton {
     text-align: center;
-    background-color: #b84747;
+    background-color: #B0D3FD;
     padding: 5px;
-    color: #ffcccc;
+    color: #1c1c1c;
     font-size: 15px;
-    font-family: verdana;
-    border-radius: 10px;
-    border-color: #b84747;
+    /* font-family: verdana; */
+    border-radius: 5px;
+    border-color: #B0D3FD;
     margin-top: 30px;
+    font-family: 'Yantramanav', sans-serif;
 }
 
 a {
-    color: #B84747; 
+    color: #1c1c1c; 
     text-align: center;
-    font-family: verdana;
+    /* font-family: verdana; */
     text-decoration: none;
-    font-size: 12px;
+    /* font-size: 12px; */
     margin-top: 20px;
+    opacity: 1.0 !important;
 }
 
 .searchinput {
     height: 20px;
     width: 50%;
     margin-right: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 li {
@@ -49,20 +57,21 @@ li {
     list-style-type: none;
     width: 70%;
     padding: 10px;
-    background-color: #ffcccc;
-    color: #B84747;
-    font-family: verdana;
+    background-color: #B0D3FD;
+    opacity: 0.5;
+    color: #1c1c1c;
+    /* font-family: verdana; */
     margin: auto;
     margin-top: 10px;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .container {
     width: 50%;
-    background-color: #ffb8b8;
+    /* background-color: #bababa; */
     text-align: center;
     padding: 10px;
     margin: auto;
     margin-top: 100px;
-    border-radius: 50px;
+    border-radius: 5px;
 }
